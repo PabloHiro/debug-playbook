@@ -1,0 +1,21 @@
+---
+ticket_code: 'UNIXAPPB-XXX'
+cluster: 'clustername'
+ns: 'namespace'
+description: 'The project that fixes all world problems! - The Fixer'
+owner: 'Pablo H'
+owner_id: 'PH0000'
+quotas:
+  cpu: 1
+  memory: 2
+  nfs_client: 3
+  block_storage: 4
+istio: false
+disaster_recovery: false
+public: 'view'
+scc_repository: false
+security_group_name: 'AZ-AAD-...'
+project_url: 'ssh://git@<repo_url>/project/namespace.git'
+sources_url: 'ssh://git@<repo_url>/namespace/*'
+branch: 'master' 
+is_production: false

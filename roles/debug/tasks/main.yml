@@ -1,0 +1,24 @@
+---
+- name: Print variables
+  debug:
+    msg: "{{ item }}"
+  loop:
+    - "{{ ticket_code }}"
+    - "{{ cluster }}"
+    - "{{ ns }}"
+    - "{{ description }}"
+    - "{{ owner }}"
+    - "{{ owner_id }}"
+    - "{{ quotas.cpu }}"
+    - "{{ quotas.memory }}"
+    - "{{ quotas.nfs_client }}"
+    - "{{ quotas.block_storage }}"
+    - "{{ istio }}"
+    - "{{ disaster_recovery }}"
+    - "{{ public }}"
+    - "{{ scc_repository }}"
+    - "{{ security_group_name }}"
+    - "{{ project_url }}"
+    - "{{ sources_url }}"
+    - "{{ branch }}"
+    - "{{ is_production }}"
